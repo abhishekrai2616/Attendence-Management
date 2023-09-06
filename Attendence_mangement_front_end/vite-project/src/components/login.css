@@ -1,0 +1,34 @@
+/* body {
+    background: #000;
+  } */
+  
+  .button-box {
+    width: 220px;
+    margin: 20px auto;
+    position: relative;
+    border-radius: 30px;
+    background: #000;
+  }
+  
+  .toggle-btn {
+    padding: 15px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  #btn {
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: DodgerBlue;
+    border-radius: 30px;
+    transition: 0.5s;
+  }
+  
